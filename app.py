@@ -4,7 +4,7 @@ import tkinter.filedialog as filedialog
 from fpdf import FPDF
 
 # Parse the XML file and create a list of spells
-tree = ET.parse("./spells.xml")
+tree = ET.parse("spells.xml")
 root = tree.getroot()
 spells = [spell for spell in root.findall("spell")]
 
@@ -57,6 +57,7 @@ def generate_pdf():
             pdf.cell(0, 10, txt=spell.find("Time").text, ln=1)
             pdf.cell(0, 10, txt=spell.find("Effect").text, ln=1)
     filepath = filedialog.asksaveasfilename(defaultextension='.pdf')
+    filepath = filepath.replace(u'\u2013', '-').encode('latin-1')
     pdf.output(filepath)
 
 generate_pdf_button = tk.Button(frame_checkbox, text="Generate PDF", command=generate_pdf)
