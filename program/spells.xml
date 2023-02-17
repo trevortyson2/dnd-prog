@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spells>
+  <spell>
+    <name>Invisibility to Undead</name>
+    <School>Abjuration, Evocation</School>
+    <Level>Level: 1</Level>
+    <Range>Range: Touch</Range>
+    <Save>Save: Special</Save>
+    <Duration>Duration: 6 rds.</Duration>
+    <Components>Components: V, S, M</Components>
+    <Aoe>AoE: 1 creature</Aoe>
+    <Time>time: 4</Time>
+    <Effect>This spell causes affected undead to lose track of and ignore the warded creature for the duration of the spell. Undead of 4 or fewer Hit Dice are automatically affected, but those with more Hit Dice receive a saving thspell vs. spell to avoid the effect. Note that a priest protected by this spell cannot turn affected undead. The spell ends immediately if the recipient makes any attack, although casting spells such as cure light wounds, augury, or chant does not end the ward. The material component is the priest&apos;s holy symbol.</Effect>
+  </spell>
+  <spell>
+    <name>Protection From Evil</name>
+    <School>Abjuration, Evocation</School>
+    <Level>Level: 1</Level>
+    <Range>Range: Touch</Range>
+    <Save>Save: None</Save>
+    <Duration>Duration: 3 rds./level</Duration>
+    <Components>Components: V, S, M</Components>
+    <Aoe>AoE: 1 creature</Aoe>
+    <Time>time: 4</Time>
+    <Effect>When this spell is cast, it creates a magical barrier around the recipient at a distance of1 foot. The barrier moves with the recipient and has three major effects: First, all attacks made by evil or evilly enchanted creatures against the protected creature receive a penalty of -2 to each attack roll, and any saving thspells caused by such attacks are made by the protected creature with a +2 bonus. Second, any attempt to exercise mental control over the protected creature (if, for example, it has been charmed by a vampire) or to invade and take over its mind (as by a ghost&apos;s magic jar attack) is blocked by this spell. Note that the protection does not prevent a vampire&apos;s charm itself, nor end it, but it does prevent the vampire from exercising mental control through the barrier. Likewise, an outside life force is merely kept out, and would not be expelled if in place before the protection was cast. Third, the spell prevents bodily contact by creatures of an extraplanar or conjured nature (such as aerial servants, elementals, imps, invisible stalkers, salamanders, water weirds, xorn, and others). This causes the natural (body) weapon attacks of such creatures to fail and the creature to recoil if such attacks require touching the protected creature. Animals or monsters summoned or conjured by spells or similar magic are likewise hedged from the character. This protection ends if the protected character makes a melee attack against or tries to force the barrier against the blocked creature. To complete this spell, the priest uses holy water or burning incense. This spell can be reversed to become protection from good, with the second and third benefits remaining unchanged. The material components for the reverse are a circle of unholy water or smoldering dung.</Effect>
+  </spell>
+  <spell>
+    <name>Remove Fear</name>
+    <School>Abjuration, Evocation</School>
+    <Level>Level: 1</Level>
+    <Range>Range: 10 yds</Range>
+    <Save>Save: Special</Save>
+    <Duration>Duration: Special</Duration>
+    <Components>Components: V, S</Components>
+    <Aoe>AoE: 1 creature/4 levels</Aoe>
+    <Time>time: 1</Time>
+    <Effect>The priest casting this spell instills courage in the spell recipient, raising the creature&apos;s saving thspell rolls against magical fear attacks by +4 for one turn. If the recipient has recently (that day) failed a saving thspell against such an attack, the spell immediately grants another saving thspell, with a +4 bonus to the die roll. For every four levels of the caster, one creature can be affected by the spell (one creature at levels 1 through 4, two creatures at levels 5 through 8, etc.). The reverse of the spell, cause fear, causes one creature to flee in panic at maximum movement speed away from the caster for 1d4 rounds. A successful saving thspell against the reversed effect negates it, and any Wisdom adjustment also applies. Of course, cause fear can be automatically countered by remove fear and vice versa. Neither spell has any effect on undead of any sort.</Effect>
+  </spell>
+  <spell>
+    <name>Sanctuary</name>
+    <School>Abjuration, Evocation</School>
+    <Level>Level: 1</Level>
+    <Range>Range: Touch</Range>
+    <Save>Save: None</Save>
+    <Duration>Duration: 2 rds. + 1 rd./level</Duration>
+    <Components>Components: V, S, M</Components>
+    <Aoe>AoE: 1 creature</Aoe>
+    <Time>time: 4</Time>
+    <Effect>When the priest casts a sanctuary spell, any opponent attempting to strike or otherwise directly attack the protected creature must roll a saving thspell vs. spell. If the saving thspell is successful, the opponent can attack normally and is unaffected by that casting of the spell. If the saving thspell is failed, the opponent loses track of and totally ignores the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. Note that this spell does not prevent the operation of area attacks (fireball, ice storm, etc.). While protected by this spell, the subject cannot take direct offensive action without breaking the spell, but may use nonattack spells or otherwise act in any way that does not violate the prohibition against offensive action. This allows a warded priest to heal wounds, for example, or to bless, perform an augury, chant, cast a light in the area (but not upon an opponent), and so on. The components of the spell include the priest&apos;s holy symbol and a small silver mirror</Effect>
+  </spell>
+  <spell>
+    <name>Protection from Chaos</name>
+    <School>Abjuration, Evocation</School>
+    <Level>Level: 1</Level>
+    <Range>Range: Touch</Range>
+    <Save>Save: None</Save>
+    <Duration>Duration: 3 rds./level</Duration>
+    <Components>Components: V, S, M</Components>
+    <Aoe>AoE: 1 creature</Aoe>
+    <Time>time: 4</Time>
+    <Effect>Resembling the spell protection from evil, this abjuration wards the creature touched from the attacks of minions of chaos. Chaotic creatures suffer a –2 penalty to attack rolls against the spell recipient, and the subject gains a +2 bonus to saving thspells against spells or other attacks employed by chaotic creatures. Attempts to possess, dominate, or exercise other forms of mental control against the recipient are automatically blocked by this spell. Protection from chaos also wards the recipient against contact with extraplanar creatures of chaotic origin, including tanar’ri, slaad, and eladrin. Unlike protection from evil, this spell does not necessarily guard against summoned or conjured creatures unless the creatures in question are chaotic in alignment. However, protection from chaos does protect the recipient from creatures influenced by confusion and chaos spells and effects. The natural or bodily attacks of such creatures automatically fail, as long as the recipient does not use the spell’s power to trap, pin, or drive back the chaotic creatures in question. The spell ends if the recipient makes a melee attack against creatures that are prevented from attacking him by this spell. The material component is a small ring of gold or lead tempered by a chaotic smith. Note that this spell is not reversible</Effect>
+  </spell>
+</spells>
